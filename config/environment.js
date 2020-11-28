@@ -3,8 +3,9 @@
 module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'booksky',
+   
     environment,
-    rootURL: '/booksky',
+    rootURL: '/',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
@@ -20,6 +21,7 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
+      backEndURL: 'http://localhost:3000'
     }
   };
 
