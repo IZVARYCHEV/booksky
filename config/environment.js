@@ -5,7 +5,7 @@ module.exports = function(environment) {
     modulePrefix: 'booksky',
    
     environment,
-    rootURL: '/',
+    rootURL: '/booksky',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
